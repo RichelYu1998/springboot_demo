@@ -1,6 +1,6 @@
-package cn.tedu.pj.common.pool;
+package cn.tedu.demo;
 
-import cn.tedu.pj.common.datasource.ObjectPool;
+import cn.tedu.demo.ObjectPool;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

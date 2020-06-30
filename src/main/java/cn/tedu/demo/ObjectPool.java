@@ -1,4 +1,4 @@
-package cn.tedu.pj.common.datasource;
+package cn.tedu.demo;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Lazy;
@@ -37,7 +37,7 @@ import org.springframework.stereotype.Component;
 @Lazy
 /*@Scope("singleton")默认就是singleton作用域*/
 /*@Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)*/
-@Scope("prototype")
+/*@Scope("prototype")*/
 public class ObjectPool {
     public ObjectPool(){
         System.out.println("==ObjectPool()==");
